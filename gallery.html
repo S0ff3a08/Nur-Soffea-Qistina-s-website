@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: sticky;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: sticky;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/7) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+<header>
+  <font face="Serif" color="white"> 
+  <h1><u>My Gallery</u></h1>
+</font>
+</header>
+
+<style type="text/css">
+  h1 {
+      text-align: center;
+  }
+  body {
+      font-family: Georgia, serif;
+      margin: 0;
+      height: 100vh;
+      background-image: url(https://i.pinimg.com/originals/d9/e4/3e/d9e43e121ab87616fa61192905dad148.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  header {
+      background-color: #be7ab3a2; 
+      width: 100%; 
+      padding: 5px 0; 
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      z-index: 999; 
+  }
+  .header-link {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+  }
+  .header-link:hover {
+      text-decoration: underline;
+  }
+  table {
+      border: 1px solid #000000;
+      margin-top: 100px; /* Adjust margin to account for header height */
+  }
+  .hidden-audio {
+      display: none;
+  }
+</style>
+</head>
+<body>
+
+  <p><p><p><p><p>
+ 
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 7</div>
+  <div align="center">
+  <style>
+    img {
+      border: 5px solid #555;
+    }
+    </style>
+  <img src="gallery/photo_2024-06-22_01-44-53_resized.jpg" style="height: 350px;">
+</div>
+  <p><font type="Times New Roman" size="4"> This is my beloved family. I am the eldest child, who is 21 years old, and my younger sister, who is now 17 years old. My late father passed away on August 4, 2021,
+     due to COVID-19. Now, my mother is the only one who works to support me and my sister, even though she is getting old. She rarely expressed her pain and tiredness 
+     in front of us because she didn't want us to worry about her health, especially me, who lives far away from her to continue my studies in Diploma. I will never forget her efforts
+      in taking care of us. My dream is to make her smile happily with my achievements in this diploma, and I will further develop my studies in the degree as well. </p></font>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 7</div>
+  <div align="center">
+  <style>
+    img {
+      border: 5px solid #555;
+    }
+    </style>
+  <img src="gallery/photo_2024-05-06_21-20-18_resized.jpg" style="height:350px">
+</div>
+  <p><font type="Times New Roman" size="4"> Before entering the Diploma world, I took a Pre-diploma at UiTM Alor Gajah, Melaka for the October - February 2022 session and at that time I studied 
+    through Online Distance Learning (ODL) where at that time our world was still hit by the Covid19 virus. They were my comrades in arms and now the 
+    three of us are at the Diploma level with our respective course choices and our friendship still remains today. </p></font>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <div align="center">
+  <style>
+    img {
+      border: 5px solid #555;
+    }
+    </style>
+  <img src="gallery/photo_2024-06-03_21-42-10_resized (1).jpg" style="height:350px" >
+ </div>
+  <p> <font type="Times New Roman" size="4"> These are my friends who went through the world of Diploma together from Semester 1 to Semester 5. Their presence means
+     a lot to me because without them, who would I be here who managed to overcome various twists and turns 
+     in academics and now I feel grateful because I was able to be a final Diploma student with them. </p> </font>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 7</div>
+  <div align="center">
+  <style>
+    img {
+      border: 5px solid #555;
+    }
+    </style>
+  <img src="gallery/photo_2024-05-06_21-20-08_resized.jpg" style="height:350px">
+</div>
+  <p><font type="Times New Roman" size="4"> This is our pet cat named <sup>"Chanteq"</sup>, we have been taking care of her for 8 years. </p></font>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 7</div>
+  <div align="center">
+  <style>
+    img {
+      border: 5px solid #555;
+    }
+    </style>
+  <img src="gallery/photo_2024-06-22_02-24-49.jpg" style="height:350px">
+</div>
+  <p><font type="Times New Roman" size="4"> When I have free time, I will spend time playing futsal with my friends in our residential area. 
+    If there is a futsal match for the women's group, we will join it just to gain experience and want to feel what a real match is like. </p></font>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 7</div>
+  <div align="center">
+  <style>
+    video {
+      border: 5px solid #555;
+    }
+    </style>
+    <video controls>
+  <source src="gallery/video_2024-06-21_23-59-44.mp4" type="video/mp4" >
+  <source src="gallery/video_2024-06-21_23-59-44.mp4" type="playVideo" >
+</video>
+</div>
+  <p><font type="Times New Roman" size="4"> Besides playing futsal, I also like to play the guitar when I have nothing else to do, and sometimes I will write lyrics spontaneously and it suddenly turns into a song. 
+    Now I have 3 songs that I composed myself. I'm not only good at guitar, but also keyboard and ukulele. </p></font>
+    </div>
+</style>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <div align="center">
+  <style>
+    video {
+      border: 5px solid #555;
+      height: 350px;
+    }
+    </style>
+    <video controls>
+  <source src="gallery/IMG_9249.MP4" type="video/mp4" >
+  <source src="gallery/IMG_9249.MP4" type="playVideo" >
+</video>
+</div>
+  <p><font type="Times New Roman" size="4"> This is a video of me and my friends playing a game where we can't say one number simultaneously. 
+    If someone mentions it simultaneously, they need to take 1 step forward. </p></font>
+    </div>
+</style>
+
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+ <!-- Hidden autoplay YouTube video -->
+ <iframe class="hidden-audio" src="gallery/Y2meta.app - Memories - Maroon 5 - Fingerstyle Guitar Cover (128 kbps).mp3" frameborder="0" allow="autoplay"></iframe>
+
+ <script>
+     
+     window.addEventListener('load', function() {
+         
+         var iframe = document.querySelector('.hidden-audio');
+         
+         iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+     });
+ </script>
+
+</p>
+</body>
+</html> 
